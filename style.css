@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/nunito-sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+body {
+    background: #202C36;
+}
+
+header {
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    padding: 24px 0;
+}
+
+main {
+    padding-bottom: 131px;
+}
+
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_site-logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+}
+
+button {
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 21.82px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.showcase svg {
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+input {
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 18px 270px 18px 74px;
+    margin: 48px 0;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    row-gap: 161px;
+}
+
+.card {
+    min-width: 264px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid;
+    background: #2B3844;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    padding: 20px 0 44px;
+}
+
+.card img {
+    width: 262px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+@media screen and ( max-width: 1348px) {
+    .cards {
+        justify-content: space-between;
+    }
+}
+
+@media screen and  ( max-width: 834px ) {
+    .cards {
+        justify-content: space-between;
+    }
+}
+
+@media screen and ( max-width: 586px) {
+    .cards {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and ( max-width: 375px) {
+    .cards {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
